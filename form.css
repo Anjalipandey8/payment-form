@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box; 
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+    font-size: 17px;
+    padding: 7px;
+}
+.container{
+  background-color: rgba(255, 255, 255, 0.726); 
+  padding: 5px 20px 15px 5px;
+  border: 1px solid black;
+  border-radius: 6px;
+  background: linear-gradient(rgba(160, 204, 221, 0.26), rgba(128, 128, 128, 0.473))
+
+}
+input[type="text"],
+input[type="text"],
+input[type="text"],
+input[type="text"],
+input[type="text"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    margin: 1px;
+    cursor: pointer;
+}
+.heading{
+    text-align: center;
+    font-style: italic;
+   text-transform: uppercase;
+   background-color: rgba(63, 78, 20, 0.082);
+}
+input[type="submit"]{
+    background-color: orchid;
+    color: brown;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: rgb(166, 160, 221);
+}
+select:hover{
+    background-color:rgb(166, 160, 221) ;
+}
+input[type="email"],
+input[type="number"],
+input[type="number"],
+input[type="number"],
+input[type="number"]{
+    border-radius: 4px;
+    cursor: pointer;
+}
